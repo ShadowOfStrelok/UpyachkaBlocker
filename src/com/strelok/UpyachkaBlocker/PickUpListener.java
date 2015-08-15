@@ -22,7 +22,10 @@ public class PickUpListener implements Listener {
     @EventHandler
     public void pickUpThing(PlayerPickupItemEvent e){
         if(!e.getPlayer().hasPermission("upyachka.blocker.fuckthepolisy") && restrictedItems.contains(e.getItem().getItemStack().getTypeId())){
-            e.getItem().getItemStack().setAmount(0);
+            e.getPlayer().sendMessage("You tried to pick up zashkvared item #"+e.getItem().getItemStack().getTypeId()+" but it is forbidden, so item is deleted.");
+            e.setCancelled(true);
+            e.getItem().remove();
+            //e.getItem().getItemStack().setAmount(0);
         }
     }
 }

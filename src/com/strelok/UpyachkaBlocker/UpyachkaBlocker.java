@@ -15,6 +15,7 @@ public class UpyachkaBlocker extends JavaPlugin {
         Bukkit.getServer().getLogger().info("GSOM GSOM!1");
         this.saveDefaultConfig();
         Bukkit.getServer().getPluginManager().registerEvents(new PickUpListener(this), this);
+        Bukkit.getServer().getPluginManager().registerEvents(new InvClickListener(this), this);
     }
 
 
