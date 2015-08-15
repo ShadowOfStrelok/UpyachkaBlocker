@@ -6,7 +6,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import java.util.logging.Level;
 
 /**
- * Created by Admin on 12.08.2015.
+ * OLOLOGSOMGSOMZHNYASHNEUPUACHNEPLUGIN
  */
 public class UpyachkaBlocker extends JavaPlugin {
 
