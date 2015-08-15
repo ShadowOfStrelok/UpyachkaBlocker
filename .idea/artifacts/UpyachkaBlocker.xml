@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="UpyachkaBlocker">
-    <output-path>$PROJECT_DIR$/devsrv/plugins</output-path>
+    <output-path>$PROJECT_DIR$/../devsrv/plugins</output-path>
     <root id="archive" name="UpyachkaBlocker.jar">
       <element id="module-output" name="UpyachkaBlocker" />
     </root>
