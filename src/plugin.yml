@@ -1,0 +1,6 @@
+ name: UpyachkaBlocker
+ version: 1.4.1
+ description: This plugin is so 31337. You can set yourself on fire.
+ author: Strelok
+
+ main: com.strelok.UpyachkaBlocker.UpyachkaBlocker
