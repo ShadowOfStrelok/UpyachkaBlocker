@@ -8,17 +8,17 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" scope="PROVIDED">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/devsrv/mcpc.jar!/" />
+          <root url="jar://$MODULE_DIR$/../devsrv/mcpc.jar!/" />
         </CLASSES>
         <JAVADOC />
         <NATIVE>
-          <root url="jar://$MODULE_DIR$/devsrv/mcpc.jar!/" />
+          <root url="jar://$MODULE_DIR$/../devsrv/mcpc.jar!/" />
         </NATIVE>
         <SOURCES>
-          <root url="jar://$MODULE_DIR$/devsrv/mcpc.jar!/" />
+          <root url="jar://$MODULE_DIR$/../devsrv/mcpc.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
